@@ -1,19 +1,43 @@
 body {
   background-color: lightgrey;
 }
+
+p{
+  font-family: serif;
+}
+
+h2{
+  font-family: sans-serif;
+}
+
 .stories {
   text-align: center;
 }
+
 .news {
   background-color: white;
   display: inline-block;
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align: left;
+  border-radius: 0.5em;
 }
+
+.news-text{
+  padding: 0 1em 0 1em;
+}
+
 .news-lead {
   text-align: center;
 }
 .news-img {
   max-width: 100%;
+}
+
+.link-btn{
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-style: solid;
 }
